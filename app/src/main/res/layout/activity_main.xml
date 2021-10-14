@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <TextView android:layout_width="fill_parent"
+                android:layout_height="19.0dip"
+                android:layout_marginLeft="15.0dip"
+                android:layout_marginTop="10.0dip"
+                android:gravity="center"
+                android:text="旧资产" />
+            <LinearLayout android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="49.0dip"
+                android:gravity="center"
+                android:layout_marginLeft="15dp"
+               >
+                <EditText
+                    android:id="@+id/et1"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:hint="请输入"
+                    android:background="@null"
+                    android:layout_weight="3.0"/>
+                <TextView
+                    android:textColor="@color/colorPrimaryDark"
+                    android:id="@+id/e1"
+                    android:gravity="center"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:text="点击扫描"
+                    android:layout_weight="1.0" />
+                <TextView
+                    android:textColor="@color/colorAccent"
+                    android:id="@+id/re1"
+                    android:gravity="center"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:text="清除"
+                    android:layout_weight="1.0" />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/black"></View>
+            <TextView android:layout_width="fill_parent"
+                android:layout_height="49.0dip"
+                android:layout_marginLeft="15.0dip"
+                android:layout_marginTop="2.0dip"
+                android:gravity="center"
+                android:text="新资产" />
+            <LinearLayout android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="49.0dip"
+                android:gravity="center"
+                android:layout_marginLeft="15dp"
+                >
+                <EditText
+                    android:id="@+id/et2"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:hint="请输入"
+                    android:background="@null"
+                    android:layout_weight="3.0"/>
+                <TextView
+                    android:textColor="@color/colorPrimaryDark"
+                    android:id="@+id/e2"
+                    android:gravity="center"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:text="点击扫描"
+                    android:layout_weight="1.0" />
+                <TextView
+                    android:textColor="@color/colorAccent"
+                    android:id="@+id/re2"
+                    android:gravity="center"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:text="清除"
+                    android:layout_weight="1.0" />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/black"></View>
+            <TextView android:layout_width="fill_parent"
+                android:layout_height="49.0dip"
+                android:layout_marginLeft="15.0dip"
+                android:layout_marginTop="2.0dip"
+                android:gravity="center"
+                android:text="模块资产" />
+            <LinearLayout android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="49.0dip"
+                android:gravity="center"
+                android:layout_marginLeft="15dp"
+                >
+                <EditText
+                    android:id="@+id/et3"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:hint="请输入"
+                    android:background="@null"
+                    android:layout_weight="3.0"/>
+                <TextView
+                    android:textColor="@color/colorPrimaryDark"
+                    android:id="@+id/e3"
+                    android:gravity="center"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:text="点击扫描"
+                    android:layout_weight="1.0" />
+                <TextView
+                    android:textColor="@color/colorAccent"
+                    android:id="@+id/re3"
+                    android:gravity="center"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:text="清除"
+                    android:layout_weight="1.0" />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/black"></View>
+            <TextView android:layout_width="fill_parent"
+                android:layout_height="49.0dip"
+                android:layout_marginLeft="15.0dip"
+                android:layout_marginTop="2.0dip"
+                android:gravity="center"
+                android:text="编程小门" />
+            <LinearLayout android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="49.0dip"
+                android:gravity="center"
+                android:layout_marginLeft="15dp"
+                >
+                <EditText
+                    android:id="@+id/et4"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:hint="请输入"
+                    android:background="@null"
+                    android:layout_weight="3.0"/>
+                <TextView
+                    android:textColor="@color/colorPrimaryDark"
+                    android:id="@+id/e4"
+                    android:gravity="center"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:text="点击扫描"
+                    android:layout_weight="1.0" />
+                <TextView
+                    android:textColor="@color/colorAccent"
+                    android:id="@+id/re4"
+                    android:gravity="center"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:text="清除"
+                    android:layout_weight="1.0" />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/black"></View>
+            <TextView android:layout_width="fill_parent"
+                android:layout_height="49.0dip"
+                android:layout_marginLeft="15.0dip"
+                android:layout_marginTop="2.0dip"
+                android:gravity="center"
+                android:text="表尾封1" />
+            <LinearLayout android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="49.0dip"
+                android:gravity="center"
+                android:layout_marginLeft="15dp"
+                >
+                <EditText
+                    android:id="@+id/et5"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:hint="请输入"
+                    android:background="@null"
+                    android:layout_weight="3.0"/>
+                <TextView
+                    android:textColor="@color/colorPrimaryDark"
+                    android:id="@+id/e5"
+                    android:gravity="center"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:text="点击扫描"
+                    android:layout_weight="1.0" />
+                <TextView
+                    android:textColor="@color/colorAccent"
+                    android:id="@+id/re5"
+                    android:gravity="center"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:text="清除"
+                    android:layout_weight="1.0" />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/black"></View>
+            <TextView android:layout_width="fill_parent"
+                android:layout_height="49.0dip"
+                android:layout_marginLeft="15.0dip"
+                android:layout_marginTop="2.0dip"
+                android:gravity="center"
+                android:text="表尾封2" />
+            <LinearLayout android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="49.0dip"
+                android:gravity="center"
+                android:layout_marginLeft="15dp"
+                >
+                <EditText
+                    android:id="@+id/et6"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:hint="请输入"
+                    android:background="@null"
+                    android:layout_weight="3.0"/>
+                <TextView
+                    android:textColor="@color/colorPrimaryDark"
+                    android:id="@+id/e6"
+                    android:gravity="center"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:text="点击扫描"
+                    android:layout_weight="1.0" />
+                <TextView
+                    android:textColor="@color/colorAccent"
+                    android:id="@+id/re6"
+                    android:gravity="center"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:text="清除"
+                    android:layout_weight="1.0" />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/black"></View>
+            <TextView android:layout_width="fill_parent"
+                android:layout_height="49.0dip"
+                android:layout_marginLeft="15.0dip"
+                android:layout_marginTop="2.0dip"
+                android:gravity="center"
+                android:text="表指数" />
+            <LinearLayout android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="49.0dip"
+                android:gravity="center"
+                android:layout_marginLeft="15.0dip">
+                <EditText android:id="@+id/et7"
+                    android:layout_width="fill_parent"
+                    android:layout_height="49.0dip"
+                    android:background="@null"
+                    android:hint="请输入表指数" />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/black"></View>
+            <Button android:id="@+id/btn0"
+                android:layout_width="300dp"
+                android:layout_height="49dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="50dp"
+                android:background="@drawable/shape_bankgreenbg"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textSize="18dp"
+                android:text="提交"
+                android:textColor="@color/white"
+                 />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
